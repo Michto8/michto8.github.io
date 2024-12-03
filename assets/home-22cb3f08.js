@@ -1,0 +1,1 @@
+import{dd as r,j as t}from"./index-2ba9b923.js";import{u as s,M as u}from"./index-eb92576c.js";import"./AppMain-106513ab.js";function l(){const{session:e,onLaunchOption:o}=r(),n=s();return t.jsx(t.Fragment,{children:t.jsx(u,{codePersonnel:e==null?void 0:e.personnel.PERS_CODE,onLaunchOption:o,autoSelect:n})})}export{l as default};

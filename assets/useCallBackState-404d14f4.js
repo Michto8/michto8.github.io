@@ -1,0 +1,1 @@
+import{r as s}from"./index-2ba9b923.js";function S(a){const[u,c]=s.useState(a),n=s.useRef([]);s.useEffect(()=>{n.current.forEach(t=>t(u)),n.current=[]},[u]);const o=(t,e=null)=>{c(t),e&&typeof e=="function"&&n.current.push(e)};return[u,o,(t,e)=>{o(r=>({...r,...typeof t=="function"?t(r):r}),e)}]}export{S as u};

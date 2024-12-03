@@ -1,0 +1,1 @@
+import{j as a,G as t,b4 as i}from"./index-2ba9b923.js";function l({disableBackground:o,className:e,children:s}){return a.jsx(t,{className:i(e,"main"),sx:{flex:1,overflow:"hidden",position:"relative",top:0,left:0,right:0,bottom:0,display:"flex",flexDirection:"column",...!o&&{bgcolor:"background.paper"}},children:s})}export{l as A};

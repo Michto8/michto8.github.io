@@ -1,0 +1,17 @@
+{ "<=": "<=",
+"=": "=",
+">": ">",
+   "contains": "Contient",
+   "equal": "égal à",
+"beginsWith": "Commence par" ,"before": "before",
+"beforeOrEqual": "supérieur ou égal",
+"in": "dans",
+"endsWith": "Termine par",
+"between": "entre","on": "on",
+"on or after": "on or after",
+"on or before": "on or before",  "no": "Non",
+
+"not between": "not between",
+"not in": "not in",
+"not on": "not on"
+}

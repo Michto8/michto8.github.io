@@ -1,0 +1,3623 @@
+{
+  "Modal": {
+    "IGeneralModalInfiniteSearchEntity": {
+      "maxWidth": "xl",
+      "fullWidth": true,
+      "fullScreen": "lg"
+    },
+    "IGeneralModalInputText": {
+      "maxWidth": "lg",
+      "fullWidth": true,
+      "fullScreen": false
+    }
+  },
+  "Window":{
+    "historyLength": 3,
+    "keepValues": true,
+    "sortBy": null,
+    "modalFilters": true,
+    "tabs": [],
+    "favorites": [],
+    "editFavorite": false,
+    "gridMode": "", 
+    "quickInputMode": true,
+    "openKeyboard": false,
+    "modalKeyboard": true,
+    
+    "modalSortVisible" : null,
+    "hideSettings": true
+
+
+  },
+  "scale": {
+    "prixRevient": {
+      "domain": [
+        -30,
+        0,
+        100
+      ],
+      "range": [
+        "red",
+        "pink",
+        "blue"
+      ]
+    }
+  },
+  "Keyboard": {
+    "layouts": {
+      "radio": {
+        "theme": "hg-grid-13 hg-height-52",
+        "buttonTheme": [
+          {
+            "class": "ak-grid-col-span5",
+            "buttons": "{space}"
+          },
+          {
+            "class": "ak-grid-col-span2",
+            "buttons": "{cl:caps} {cl:default} {cl:symb} {bksp}"
+          },
+          {
+            "class": "ak-grid-col-span2 ak-hidden",
+            "buttons": "{empty}"
+          }
+        ],
+        "display": {
+          "{bksp}": "del",
+          "{clean}": "",
+          "{space}": " ",
+          "{enter}": "entrer",
+          "{cl:caps}": "abc",
+          "{cl:123}": "123",
+          "{cl:default}": "ABC",
+          "{cl:symb}": "=/",
+          "{cl:num}": "@#",
+          "{cl:azerty}": "abc"
+        },
+        "layout": {
+          "symb": [
+            "/ * \\ § ] [ ! ? @ #",
+            "& é \" ' ( - è _ ç à )",
+            "+ - $ % ~ ù ^ ¨ €", 
+            "{cl:default} {cl:caps} {space} {bksp} 0 ."
+          ],
+          "caps": [
+            "a z e r t y u i o p 1 2 3",
+            "q s d f g h j k l m 4 5 6",
+            "w x c v b n , ; : ! 7 8 9",
+            "{cl:default} {cl:symb} {space} {bksp} 0 ."
+          ],
+          "default": [
+            "A Z E R T Y U I O P 1 2 3",
+            "Q S D F G H J K L M 4 5 6",
+            "W X C V B N ? . / § 7 8 9",
+            "{cl:caps} {cl:symb} {space} {bksp} 0 ."
+          ]
+        },
+        "layoutName": "default"
+      },
+      "number":{
+         
+        "layout": {
+          "default":  ["1 2 3", "4 5 6", "7 8 9", "0 {bksp} . -", "{enter}"]
+        },
+        "layoutName": "default"
+     
+    },
+    
+      "integer":
+      {
+         
+          "layout": {
+            "default": ["1 2 3", "4 5 6", "7 8 9", "0 {bksp} {clear}"]
+          },
+          "layoutName": "default"
+       
+      },
+      "date":
+      {
+        
+          "layout": {
+            "default": ["1 2 3", "4 5 6", "7 8 9", "0 {bksp} {clear}"]
+          },
+          "layoutName": "default"
+       
+      },
+      "ecran1": {
+        "theme": "hg-grid-13 hg-height-52",
+        "buttonTheme": [
+          {
+            "class": "ak-grid-col-span5",
+            "buttons": "{space}"
+          },
+          {
+            "class": "ak-grid-col-span2",
+            "buttons": "{cl:caps} {cl:default} {cl:symb} {bksp}"
+          },
+          {
+            "class": "ak-grid-col-span2 ak-hidden",
+            "buttons": "{empty}"
+          }
+        ],
+        "display": {
+          "{bksp}": "del",
+          "{clean}": "",
+          "{space}": " ",
+          "{enter}": "entrer",
+          "{cl:caps}": "abc",
+          "{cl:123}": "123",
+          "{cl:default}": "ABC",
+          "{cl:symb}": "=/",
+          "{cl:num}": "@#",
+          "{cl:azerty}": "abc"
+        },
+        "layout": {
+          "symb": [
+            "/ * \\ § ] [ ! ? @ #",
+            "& é \" ' ( - è _ ç à )",
+            "+ - $ % ~ ù ^ ¨ €", 
+            "{cl:default} {cl:caps} {space} {bksp} 0 ."
+          ],
+          "caps": [
+            "a z e r t y u i o p 1 2 3",
+            "q s d f g h j k l m 4 5 6",
+            "w x c v b n , ; : ! 7 8 9",
+            "{cl:default} {cl:symb} {space} {bksp} 0 ."
+          ],
+          "default": [
+            "A Z E R T Y U I O P 1 2 3",
+            "Q S D F G H J K L M 4 5 6",
+            "W X C V B N ? . / § 7 8 9",
+            "{cl:caps} {cl:symb} {space} {bksp} 0 ."
+          ]
+        },
+        "layoutName": "default"
+      },
+      "fr":
+      {
+        
+          "layoutName": "default",
+          "layout": {
+            "default": [
+              "` 1 2 3 4 5 6 7 8 9 0 ° + {bksp}",
+              "{tab} a z e r t y u i o p ^ $",
+              "{lock} q s d f g h j k l m ù * {enter}",
+              "{shift} < w x c v b n , ; : ! {shift}",
+              ".com @ {space}"
+            ],
+            "shift": [
+              "² & é \" ' ( - è _ ç à ) = {bksp}",
+              "{tab} A Z E R T Y U I O P ¨ £",
+              "{lock} Q S D F G H J K L M % µ {enter}",
+              "{shift} > W X C V B N ? . / § {shift}",
+              ".com @ {space}"
+            ]
+          }
+       
+      },
+      "en":{
+        
+          "layoutName": "default",
+          "layout": {
+            "default": [
+              "^ 1 2 3 4 5 6 7 8 9 0 ß ´ {bksp}",
+              "{tab} q w e r t z u i o p ü +",
+              "{lock} a s d f g h j k l ö ä # {enter}",
+              "{shift} < y x c v b n m , . - {shift}",
+              ".com @ {space}"
+            ],
+            "shift": [
+              "° ! \" § $ % & / ( ) = ? ` {bksp}",
+              "{tab} Q W E R T Z U I O P Ü *",
+              "{lock} A S D F G H J K L Ö Ä ' {enter}",
+              "{shift} > Y X C V B N M ; : _ {shift}",
+              ".com @ {space}"
+            ]
+          }
+        
+      }
+    
+  }},
+  "Recherches": {
+    "Imprimante": {
+      "fields": [
+        {
+          "name": "IMP_NOM",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "mapping": "_.IMPBOR_NOM"
+        }
+      ],
+      "initialQuick": {
+        "combinator": "or",
+        "rules": [
+          {
+            "field": "IMP_NOM",
+            "operator": "contains",
+            "value": ""
+          }
+        ]
+      }
+    },
+    "RechercheTournee": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "sortOptions": [["TOUR_CODE", "asc"]],
+      "fields": [
+        {
+          "name": "TOUR_CODE",
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+
+        {
+          "name": "TOUR_LIBELLE",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text" 
+           
+        }
+      ],
+      "initialQuick": {
+        "combinator": "or",
+        "rules": [  
+          { "field": "TOUR_CODE", "operator": "contains", "value": "" },
+          { "field": "TOUR_LIBELLE", "operator": "contains", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          { "field": "TOUR_CODE", "operator": "contains", "value": "" },
+          { "field": "TOUR_LIBELLE", "operator": "contains", "value": "" }
+         
+        ]
+      }
+    },
+    "ComplementsTraca": {
+      "fields": [
+        {
+          "isQuick": true,
+          "name": "TRA_LIBC",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ]
+    },
+    "Palettes": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "sortOptions": [["EMB_TARE_ACHAT", "desc"]],
+      "fields": [
+        {
+          "name": "EMB_CODE",
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+
+        {
+          "name": "EMB_LIB1",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "EMB_TARE_ACHAT",
+         
+          "defaultOperator": ">",
+          "inputType": "number"
+        }
+      ],
+      "initialQuick":{
+        "combinator": "or",
+        "rules": [
+          { "field": "EMB_LIB1", "operator": "contains", "value": "" },
+          { "field": "EMB_CODE", "operator": "contains", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          { "field": "EMB_LIB1", "operator": "contains", "value": "" },
+          { "field": "EMB_CODE", "operator": "contains", "value": "" },
+          { "field": "EMB_TARE_ACHAT", "operator": ">=", "value": "" }
+          
+        ]
+      }
+    },
+    "Transporteurs": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "fields": [
+        {
+          "name": "FOU_CODE",
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+
+        {
+          "name": "FOU_NOM",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ],
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "FOU_NOM", "operator": "contains", "value": "" },
+          { "field": "FOU_CODE", "operator": "contains", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          { "field": "FOU_NOM", "operator": "contains", "value": "" },
+          { "field": "FOU_CODE", "operator": "contains", "value": "" }
+        ]
+      }
+    },
+    "ReceptionsDetailReception": {
+      "queryOptions": {
+        "_refetchInterval": 400000
+      },
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_LIB1", "operator": "contains", "value": "" },
+          { "field": "ART_CODE", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          { "field": "ART_LIB1", "operator": "contains", "value": "" },
+          { "field": "ART_CODE", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "sortOptions": [],
+      "fields": [
+        {
+          "name": "ART_LIB1",
+          "mapping": "article.ART_LIB1",
+       
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true
+        },
+        {
+          "name": "ART_CODE",
+          "mapping": "article.ART_CODE",
+         
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true
+        }
+      ]
+    },
+    "ReceptionsDetail": {
+      "queryOptions": {
+        "_refetchInterval": 4000
+      },
+      "sortOptions": [],
+      "fields": [
+        {
+          "name": "ACH_DATE_REC",
+        
+          "defaultOperator": "between",
+          "inputType": "daterange",
+          "dbType": "DateTime"
+        },
+        {
+          "name": "ACH_CDE",
+          
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "rechercheFournisseur",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Fournisseurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "supplier",
+            "lookupRules": [
+              {
+                "field": "ACH_FOURNI_LIVR"
+              },
+              {
+                "field": "FOU_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "rechercheTransporteurs",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Transporteurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "carrier",
+            "lookupRules": [
+              {
+                "field": "ACH_CODE_TRSP1"
+              },
+              {
+                "field": "TRSP_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ACH_FOURNI_LIVR",
+         
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "FOU_NOM",
+ 
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "mapping": "fournisseur.FOU_NOM",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "ACH_CODE_TRSP1",
+     
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "TRSP_NOM",
+          
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "mapping": "transporteur.FOU_NOM",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "ACH_NUMSEQ",
+     
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "ACH_ACHETEUR",
+  
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "personnels",
+            "lookupRules": [
+              {
+                "field": "ACH_ACHETEUR"
+              },
+              {
+                "field": "ACH_ACHETEUR"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ART_CODE",
+          "mapping": "article.ART_CODE",
+       
+          "defaultOperator": "beginsWith",
+          "inputType": "text",
+          "enableSorting": true,
+          "isQuick": true
+        },
+        {
+          "name": "ART_LIB1",
+          "mapping": "article.ART_LIB1",
+           
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "isQuick": true
+        }
+      ]
+    },
+    "Receptions": {
+      "queryOptions": {
+        "_refetchInterval": 400000
+      },
+      "sortOptions": [],
+      "fields": [
+        {
+          "name": "ACH_DATE_REC",
+       
+          "defaultOperator": "between",
+          "inputType": "daterange",
+          "dbType": "DateTime"
+        },
+        {
+          "name": "ACH_CDE",
+           
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "isQuick": true
+        },
+        {
+          "name": "rechercheFournisseur",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Fournisseurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "supplier",
+            "lookupRules": [
+              {
+                "field": "ACH_FOURNI_LIVR"
+              },
+              {
+                "field": "FOU_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "rechercheTransporteurs",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Transporteurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "carrier",
+            "lookupRules": [
+              {
+                "field": "ACH_CODE_TRSP1"
+              },
+              {
+                "field": "TRSP_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ACH_FOURNI_LIVR",
+      
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "FOU_NOM",
+        
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "mapping": "fournisseur.FOU_NOM",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "ACH_CODE_TRSP1",
+          "label": "VEN_CODE_TRSP1",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "TRSP_NOM",
+           
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "mapping": "transporteur.FOU_NOM",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "ACH_NUMSEQ",
+          "mapping": "_.ACH_NUMSEQ",
+           
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "ACH_DOSSIER",
+           
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "ACH_ACHETEUR",
+           
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "personnels",
+            "lookupProps": {
+              "type": "A,R",
+              "operator":"in"
+            },
+            "lookupRules": [
+              {
+                "field": "ACH_ACHETEUR"
+              },
+              {
+                "field": "ACH_ACHETEUR"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "LotPeseesBorneReception": {
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_LIB1", "operator": "contains", "value": "" },
+          { "field": "LOT_ID", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          {
+            "field": "rechercheArticle",
+            "operator": "contains",
+            "value": ""
+          },
+          {
+            "field": "rechercheFournisseur",
+            "operator": "contains",
+            "value": ""
+          },
+          {
+            "name": "PESEE_DATE",
+            "defaultOperator": "between",
+            "inputType": "daterange",
+            "dbType": "DateTime"
+          }
+        ]
+      },
+
+      "sortOptions": [["PESEE_DATE", "desc"]],
+      "fields": [
+        {
+          "name": "PESEE_DATE",
+           
+          "defaultOperator": "between",
+          "inputType": "daterange",
+          "dbType": "DateTime"
+        },
+        {
+          "name": "rechercheFournisseur",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Fournisseurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "supplier",
+            "lookupRules": [
+              {
+                "field": "PESEE_FOU"
+              },
+              {
+                "field": "PESEE_FOU"
+              }
+            ]
+          }
+        },
+        {
+          "name": "rechercheArticle",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Articles",
+            "primaryKey": "ART_CODE",
+            "display": "ART_LIB1",
+            "title": "product",
+            "lookupRules": [
+              {
+                "field": "PESEE_ART"
+              },
+              {
+                "field": "ART_LIB1"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ART_LIB1",
+      
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "mapping": "gcarticle.ART_LIB1",
+          "enableAutoFilter": true
+        },
+        {
+          "name": "PESEE_FOU",
+         
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "mapping": "PESEE_FOU",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "LOT_ID",
+           
+          "defaultOperator": "beginsWith",
+          "inputType": "text",
+          "enableSorting": true,
+          "mapping": "arrivage.LOT_ID",
+          "enableAutoFilter": true
+        }
+      ]
+    },
+    "LotPeseesBorne": {
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_LIB1", "operator": "contains", "value": "" },
+          { "field": "LOT_ID", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          {
+            "field": "rechercheArticle",
+            "operator": "contains",
+            "value": ""
+          },
+          {
+            "field": "rechercheFournisseur",
+            "operator": "contains",
+            "value": ""
+          },
+          {
+            "field": "LOT_ID",
+            "operator": "beginsWith",
+            "value": ""
+          },
+          {
+            "name": "PESEE_DATE",
+            "defaultOperator": "between",          
+            "inputType": "daterange",
+            "dbType": "DateTime"
+          }
+        ]
+      },
+
+      "sortOptions": [["PESEE_DATE", "desc"]],
+      "fields": [
+        {
+          "name": "PESEE_DATE",
+           
+          "defaultOperator": "between",
+          "inputType": "daterange",
+          "dbType": "DateTime"
+        },
+        {
+          "name": "rechercheFournisseur",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Fournisseurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "supplier",
+            "lookupRules": [
+              {
+                "field": "PESEE_FOU"
+              },
+              {
+                "field": "PESEE_FOU"
+              }
+            ]
+          }
+        },
+        {
+          "name": "rechercheArticle",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Articles",
+            "primaryKey": "ART_CODE",
+            "display": "ART_LIB1",
+            "title": "product",
+            "lookupRules": [
+              {
+                "field": "PESEE_ART"
+              },
+              {
+                "field": "ART_LIB1"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ART_LIB1",
+     
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "mapping": "gcarticle.ART_LIB1",
+          "enableAutoFilter": true
+        },
+        {
+          "name": "PESEE_FOU",
+           
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "mapping": "PESEE_FOU",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "LOT_ID",
+           
+          "defaultOperator": "beginsWith",
+          "inputType": "text",
+          "enableSorting": true,
+          "mapping": "arrivage.LOT_ID",
+          "enableAutoFilter": true
+        }
+      ]
+    },
+    "NaturesInventaire": {
+      "fields": [
+        {
+          "name": "INV_LIBELLE",
+          "inputType": "text",
+          "label": "NAME",
+          "defaultOperator": "beginsWith"
+        },
+        {
+          "name": "INV_CODE",
+          "inputType": "text",
+          "label": "CODE",
+          "defaultOperator": "contains"
+        }
+      ]
+    },
+
+    "Depots": {
+      "fields": [
+        {
+          "isQuick": true,
+          "name": "DEP_LIBELLE",
+          "inputType": "text",
+           
+          "defaultOperator": "beginsWith"
+        },
+        {
+          "isQuick": true,
+          "name": "DEP_CODE",
+          "inputType": "text",
+           
+          "defaultOperator": "contains"
+        }
+      ]
+    },
+    "ClientsVenteCarreau": {
+   
+      "sortOptions": [["CLI_APPEL", "asc"]],
+      "minimumQuickLength":2,
+      "fields": [
+        {
+          
+          "isQuick": true,
+          "name": "CLI_CODE",
+          "className":"ak-grid-column3",
+         
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "className":"ak-grid-column3",
+          "isQuick": true,
+          "name": "CLI_NOM",
+       
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "isQuick": true,
+          "name": "CLI_APPEL",
+      
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {"className":"ak-grid-column1",
+          "name": "CLI_TEL1",
+        
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "className":"ak-grid-column2",
+          "name": "CLI_MAIL",
+       
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "className":"ak-grid-column3",
+          "name": "CLI_VILLE",
+      
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+         {
+          
+          "name": "CLI_ACTIF",
+        
+          "defaultOperator": "in",
+          "inputType": "groupBox",
+        
+          "groupValues":[
+            {"value":"O","label":"Actif",     "icon": "Face" },
+            {"value":"P","label":"Prospet", "icon": "SpatialAudioOffIcon"},
+            {"value":"I","label":"Interdit", "icon": "FaceRetouchingOff"}
+          ]
+        }
+      ],
+      "initialQuery": {
+
+        "combinator": "and",
+        "rules": [
+          {
+            "className":"ak-grid-column3" ,
+            "name": "CLI_CODE"
+          
+        },
+        {
+          "className":"ak-grid-column3" ,
+          "name": "CLI_NOM"
+        },
+        {
+          
+          "name": "CLI_APPEL"
+        
+        },
+        {
+          "name": "CLI_TEL1"
+          
+        },
+        {
+          "name": "CLI_MAIL" 
+        },
+        {
+          "name": "CLI_VILLE" 
+        },
+         {
+          "value":"O",
+          "name": "CLI_ACTIF"
+           
+        }
+        ]
+      }
+    },
+    "Clients": {
+      "fields": [
+        {
+          "name": "CLI_CODE",
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+
+        {
+          "name": "CLI_NOM",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ],
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          {
+            "field": "CLI_CODE",
+            "operator": "contains",
+            "value": ""
+          },
+          {
+            "field": "CLI_NOM",
+  
+            "operator": "contains",
+            "value": ""
+          }
+        ]
+      }
+    },
+    "PersonnelsAvecType": {
+       
+      "fields": [
+        {
+          "name": "PERS_CODE",
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+
+        {
+          "name": "PERS_NOM",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ],
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          {
+            "field": "PERS_CODE",
+            "operator": "contains",
+            "value": ""
+          },
+          {
+            "field": "PERS_NOM",
+       
+            "operator": "contains",
+            "value": ""
+          }
+        ]
+      }
+    },
+    "CLIENTSMECA": {
+      "fields": [
+        {
+          "name": "CLI_CODE",
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "CLI_NOM",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ],
+      "initialQuery": {
+        "combinator": "and",
+         
+        "rules": [
+          {
+            "field": "CLI_CODE",
+            "operator": "contains",
+            "value": ""
+          },
+          { "field": "CLI_NOM", "operator": "contains", "value": "" }
+        ]
+      }
+    },
+
+    "LOTSRESSERRE": {
+      "fields": [
+        {
+          "name": "ART_LIB1",
+          "mapping": "article.ART_LIB1",
+   
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "INV_CODART",
+          "mapping": "_.INV_CODART",
+      
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "INV_DATE",
+          "inputType": "date",
+          "label": "DATE",
+          "defaultOperator": ">",
+          "dbType": "DateTime"
+        }
+      ]
+    },
+    "Litige": {
+      "sortOptions": [
+        ["LIT_TYPE", "desc"],
+        ["LIT_LIBELLE", "desc"]
+      ],
+      "initialQuick":{
+      
+        "combinator": "or",
+        "rules": [
+          { "field": "LIT_CODE", "operator": "contains", "value": "" },
+          { "field": "LIT_LIBELLE", "operator": "contains", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          { "field": "LIT_LIBELLE", "operator": "contains", "value": "" },
+          { "field": "LIT_CODE", "operator": "contains", "value": "" }
+
+          
+        ]
+      },
+      "fields": [
+        {
+          "name": "LIT_CODE",
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "LIT_TYPE",
+     
+          "defaultOperator": "=",
+          "inputType": "text"
+        },
+        {
+          "name": "LIT_LIBELLE",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        }
+      ]
+    },
+    "Personnels": {
+   
+      "fields": [
+        {
+          "name": "PERS_NOM",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "PERS_CODE",
+
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        }
+      ],
+      "sortOptions": [["PERS_NOM", "asc"]],
+      "initialQuick":{
+        
+          "combinator": "or",
+          "rules": [
+            { "field": "PERS_NOM", "operator": "contains", "value": "" },
+            { "field": "PERS_CODE", "operator": "contains", "value": "" }
+          ]
+         
+      },
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          { "field": "PERS_CODE", "operator": "contains", "value": "" },
+          { "field": "PERS_NOM", "operator": "contains", "value": "" }
+
+         
+        ]
+      }
+    },
+
+    "Fournisseurs": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "fields": [
+        {
+          "name": "FOU_NOM",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "FOU_CODE",
+
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        }
+      ],
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "FOU_NOM", "operator": "contains", "value": "" },
+          { "field": "FOU_CODE", "operator": "contains", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          { "field": "FOU_NOM", "operator": "contains", "value": "" },
+          { "field": "FOU_CODE", "operator": "contains", "value": "" }
+        ]
+      }
+    },
+    "Articles": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "sortOptions": [["ART_CODE", "asc"]],
+      "fields": [
+        {
+          "name": "ART_CODE",
+          "label": "CODE",
+          "defaultOperator": "beginsWith",
+          "inputType": "text",
+          "mapping":"article.ART_CODE"
+        },
+        {
+          "name": "ART_LIB1",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "mapping":"article.ART_LIB1"
+        }
+      ],
+      "initialQuick":
+          {
+             
+            "combinator": "or",
+            "rules": [
+              { "field": "ART_LIB1", "operator": "contains", "value": "" },
+              { "field": "ART_CODE", "operator": "beginsWith", "value": "" }
+            ]
+          },
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          { "field": "ART_LIB1", "operator": "contains", "value": "" },
+          { "field": "ART_CODE", "operator": "beginsWith", "value": "" }
+        ]
+      }
+    },
+
+    "Emballages": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+
+      "fields": [
+        {
+          "name": "EMB_CODE",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "EMB_LIB1",
+          "label": "CODE",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        }
+      ],
+      "initialQuick":{
+        
+        "combinator": "or",
+        "rules": [
+          { "field": "EMB_LIB1", "operator": "contains", "value": "" },
+          { "field": "EMB_CODE", "operator": "contains", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          { "field": "EMB_LIB1", "operator": "contains", "value": "" },
+          { "field": "EMB_CODE", "operator": "contains", "value": "" }
+          
+        ]
+      }
+    },
+    "RechercheCodeStat": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "sortOptions": [["STAT_LIBELLE", "asc"]],
+      "fields": [
+        {
+          "name": "STAT_CODE",
+          "label": "CODE",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "STAT_LIBELLE",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ],
+      "initialQuick":
+      {
+       
+        "combinator": "or",
+        "rules": [
+          { "field": "STAT_CODE", "operator": "beginsWith", "value": "" },
+          { "field": "STAT_LIBELLE", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          { "field": "STAT_CODE", "operator": "beginsWith", "value": "" },
+          { "field": "STAT_LIBELLE", "operator": "beginsWith", "value": "" }
+
+        ]
+      }
+    },
+    "ComplementsTracaDetailMemory":{
+      "fields": [
+        {
+          "name": "TRA_LIBELLE",
+          "label": "CODE",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }],
+        "initialQuick":  {
+          "combinator": "or",
+          "rules": [
+            { "field": "TRA_LIBELLE", "operator": "beginsWith", "value": "" }
+            
+          ]
+        }
+
+    },
+    "VenteCarreauCommandeDetail":{
+      "fields": [
+        {
+          "name": "VEN_ART_CODE",
+          "label": "CODE",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "VEN_LIB_ART",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      
+      ],
+        "initialQuick":  {
+          "combinator": "or",
+          "rules": [
+            { "field": "VEN_ART_CODE", "operator": "beginsWith", "value": "" },
+            { "field": "VEN_LIB_ART", "operator": "beginsWith", "value": "" }
+            
+          ]
+        }
+
+    },
+
+    "VenteCarreauCommandeDetailMemory":{
+      "fields": [
+        {
+          "name": "VEN_ART_CODE",
+          "label": "CODE",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },{
+          "name": "VEN_DESART",
+          "label": "NAME",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ],
+        "initialQuick":  {
+          "combinator": "or",
+          "rules": [
+            { "field": "VEN_ART_CODE", "operator": "beginsWith", "value": "" },
+            { "field": "VEN_DESART", "operator": "beginsWith", "value": "" }
+          ]
+        }
+
+    },
+    "StockVenteCarreau": {
+      "minimumQuickLength":2,
+     
+      "sortOptions": [["ART_LIB1", "asc"]],
+      "fields": [
+        {
+          "name": "ART_CODE",
+        
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ART_LIB1",
+       
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        } ,
+        {
+          "name": "STO_DIS",
+          "mapping": "stock.STO_DIS",
+           
+          "defaultOperator": ">",
+          "inputType": "number"
+        },
+        {
+          "name":"STAT_LIBELLE",
+          "inputType": "text",
+          "enableSorting": false, 
+          "enableAutoFilter": false, 
+          "mapping": "GCCODE_STAT_Stat1.STAT_LIBELLE"
+        },
+        {
+          "name": "rechercheStat1",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "CodeStat",
+            "primaryKey": "STAT_CODE",
+            "display": "STAT_LIBELLE",
+            "title": "codeStat",
+          
+            "lookupProps": {
+              "type": "A",
+              "niveau": "1"
+            },
+            "lookupRules": [
+              {
+                "field": "ART_STAT1"
+              },
+              {
+                "field": "STAT_LIBELLE"
+              }
+            ]
+          }
+        }
+      ],
+      "initialQuick":  {
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_CODE", "operator": "beginsWith", "value": "" },
+          { "field": "ART_LIB1", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          {
+            "field": "rechercheStat1",
+            "operator": "contains",
+            "value": "",
+            "className":"ak-grid-column6" 
+          },
+           
+          { "field": "ART_CODE", "operator": "beginsWith", "value": "" },
+          { "field": "ART_LIB1", "operator": "beginsWith", "value": "" }
+        
+        ]
+      }
+    },
+    "StockLotVenteCarreau": {
+      "minimumQuickLength":2,
+     
+      "sortOptions": [["ART_LIB1", "asc"]],
+      "fields": [
+        {
+          "name": "STO_LOT",
+          "mapping": "STOCK.STO_LOT",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ART_CODE",
+        
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ART_LIB1",
+       
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        } ,
+        {
+          "name": "STO_DIS",
+          "mapping": "stock.STO_DIS",
+           
+          "defaultOperator": ">",
+          "inputType": "number"
+        },
+        {
+          "name":"STAT_LIBELLE",
+          "inputType": "text",
+          "enableSorting": false, 
+          "enableAutoFilter": false, 
+          "mapping": "GCCODE_STAT_Stat1.STAT_LIBELLE"
+        },
+        {
+          "name": "rechercheStat1",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "CodeStat",
+            "primaryKey": "STAT_CODE",
+            "display": "STAT_LIBELLE",
+            "title": "codeStat",
+          
+            "lookupProps": {
+              "type": "A",
+              "niveau": "1"
+            },
+            "lookupRules": [
+              {
+                "field": "ART_STAT1"
+              },
+              {
+                "field": "STAT_LIBELLE"
+              }
+            ]
+          }
+        }
+      ],
+      "initialQuick":  {
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_CODE", "operator": "beginsWith", "value": "" },
+          { "field": "ART_LIB1", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          {
+            "field": "rechercheStat1",
+            "operator": "contains",
+            "value": "",
+            "className":"ak-grid-column6" 
+          },
+           
+          { "field": "STO_LOT" },
+          { "field": "ART_CODE"  },
+          { "field": "ART_LIB1"  }
+        
+        ]
+      }
+    },
+    "ListeEntetesVenteCarreau": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "sortOptions": [["VEN_CDE", "asc"]],
+      "fields": [
+        {
+          "name": "rechercheClient",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+            "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "ClientsVenteCarreau",
+            "primaryKey": "CLI_CODE",
+            "display": "CLI_NOM",
+            "title": "customer",
+            "lookupRules": [
+              {
+                "field": "VEN_CLIENT"
+              },
+              {
+                "field": "LIVC_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "VEN_TOURNEE", 
+          
+         
+          "defaultOperator": "=" 
+        },
+        {
+          "name": "TOUR_LIBELLE",  
+       
+          "defaultOperator": "contains",
+          "mapping" :"tournee.TOUR_LIBELLE"
+        },
+        {
+          "name": "rechercheTournee",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "Tournee",
+            "primaryKey": "TOUR_CODE",
+            "display": "TOUR_LIBELLE",
+            "title": "tour",
+            "lookupRules": [
+              {
+                "field": "VEN_TOURNEE"
+              },
+              {
+                "field": "TOUR_LIBELLE"
+              }
+            ]
+          }
+        },
+        {
+          "name": "VEN_CDEBL",
+        
+  
+          "inputType": "text",
+            "className":"ak-grid-column3",
+          "combine":[{"field": "VEN_CDE"},{"field": "VEN_BL"  }]
+        },
+        {
+          "name": "VEN_CDE", "className":"ak-grid-column3",
+       
+          "defaultOperator": "=",
+          "inputType": "number"
+        },
+        {
+          "name": "VEN_BL","className":"ak-grid-column3",
+       
+          "defaultOperator": "=",
+          "inputType": "number"
+        },
+        {
+          "name": "VEN_DATE_CDE","className":"ak-grid-column3",
+       
+          "defaultOperator": "=",
+          "inputType": "date"
+        },{
+          "name": "VEN_DATE_LIV","className":"ak-grid-column3",
+  
+          "defaultOperator": "=",
+          "inputType": "date"
+        },
+        
+        {
+          "name": "VEN_TYPE_ENT",
+  
+          "defaultOperator": "in",
+          "inputType": "groupBox",
+          "groupValues":[
+            {"value":"B","label":"Bon de livraison","icon":"IconEnteteVente"},
+            {"value":"C","label":"Commande","icon":"IconEnteteVente"}
+          
+          ]
+        },
+        {
+          "name": "VEN_CLIENT",
+ 
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "LIVC_NOM",
+          "mapping": "LIVC_NOM",
+          "raw": true,
+ 
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ],
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "VEN_CLIENT", "operator": "beginsWith", "value": "" },
+          { "field": "LIVC_NOM", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          {
+            "field": "rechercheClient",
+            "operator": "contains",
+            "value": ""
+          },{
+            "field": "rechercheTournee",
+            "operator": "contains",
+            "value": ""
+          },
+          {  "field": "VEN_CDEBL", "operator": "=", "value": "" }, 
+          {   "field": "VEN_TYPE_ENT", "operator": "in", "value": "" },
+          {   "field": "VEN_DATE_CDE", "operator": "=", "value": "" },
+          { "field": "VEN_DATE_LIV", "operator": "=", "value": "" } 
+        
+        ]
+      }
+    },
+    "ListeDetailsVenteCarreau": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "sortOptions": [["VEN_DATE_LIV", "desc"]],
+      "fields":  [
+        {
+          "name": "VEN_CDEBL",
+          "label":"orderblNumber",
+            "inputType": "text",
+            "className":"ak-grid-column2",
+          "combine":[{"field": "VEN_CDE"},{"field": "VEN_BL"  }]
+        },
+        {
+          "name": "VEN_CDE", "className":"ak-grid-column2",
+  
+          "defaultOperator": "=",
+          "inputType": "text",
+          "mapping":"GCVENTE_ENT.VEN_CDE"
+        },
+        {
+          "name": "VEN_BL","className":"ak-grid-column2",
+        
+          "defaultOperator": "=",
+          "inputType": "text",
+          "mapping":"GCVENTE_ENT.VEN_BL"
+        },
+        {
+          "name": "VEN_DATE_CDE","className":"ak-grid-column2",
+       
+          "defaultOperator": "=",
+          "inputType": "date",
+          "mapping":"GCVENTE_ENT.VEN_DATE_CDE"
+        },{
+          "name": "VEN_DATE_LIV","className":"ak-grid-column2",
+           
+          "defaultOperator": "=",
+          "inputType": "date",
+          "mapping":"GCVENTE_ENT.VEN_DATE_LIV"
+        },
+        
+        {
+          "name": "VEN_TYPE_ENT",
+          "mapping":"GCVENTE_ENT.VEN_TYPE_ENT",
+     
+          "defaultOperator": "in",
+          "inputType": "groupBox",
+          "groupValues":[
+            {"value":"B","label":"Bon de livraison","icon":"IconEnteteVente"},
+            {"value":"C","label":"Commande","icon":"IconEnteteVente"}
+          
+          ]
+        } 
+      ],
+      
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+           
+          { "className":"ak-grid-column3" , "field": "VEN_CDEBL", "operator": "=", "value": "" }, 
+          { "field": "VEN_DATE_CDE", "operator": "=", "value": "" },
+          { "field": "VEN_DATE_LIV", "operator": "=", "value": "" },
+          { "field": "VEN_TYPE_ENT", "operator": "in", "value": "" }
+        ]
+      }
+    },
+    "LotPourVente": {
+     
+      "fields": [
+        { 
+          "name": "ACH_DATE_REC",
+          "label": "Date",
+          "defaultOperator": "=",
+          "inputType": "date"
+        },
+        {
+          "name": "STO_CODART",
+    
+          "defaultOperator": "=",
+          "inputType": "text"
+        },
+        {
+          "name": "STO_LOT",
+        
+          "defaultOperator": "=",
+          "inputType": "text"
+        },
+        {
+          "name": "LOT_ID",
+       
+          "defaultOperator": "=",
+          "inputType": "text"
+        },
+        {
+          "name": "rechercheFournisseur",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Fournisseurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "supplier",
+            "lookupRules": [
+              {
+                "field": "ACH_FOURNI_LIVR"
+              },
+              {
+                "field": "FOU_NOM"
+              }
+            ]
+          }
+        }
+      ],
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "LOT_ID", "operator": "beginsWith", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+        "rules": [
+          { "field": "ACH_DATE_REC", "operator": "=", "value": "" },
+          { "field": "STO_CODART", "operator": "=", "value": "" },
+          { "field": "STO_LOT", "operator": "=", "value": "" },
+          {
+            "field": "rechercheFournisseur",
+            "operator": "contains",
+            "value": ""
+          }
+        ]
+      }
+    },
+    "PreparationDetail": {
+      "fields": [
+        {
+          "mapping":"article.ART_CODE",
+          "name": "ART_CODE",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "VEN_DATE_ENL",
+          "label": "VEN_DATE_ENL",
+          "defaultOperator": "contains",
+          "dbType": "DateTime",
+          "inputType": "date"
+        } 
+      ],
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_CODE", "operator": "contains", "value": "" },
+          { "field": "VEN_DATE_ENL", "operator": "=", "value": "" }
+        ]
+      },
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          { "field": "ART_CODE", "operator": "contains", "value": "" },
+          { "field": "VEN_DATE_ENL", "operator": "=", "value": "" }
+           
+        ]
+      }
+    },
+    "PreparationGroupByArticle": {
+      "fields":[
+        {
+          "name": "ART_CODE", 
+          "className":"ak-grid-column2",
+          "mapping" :"article.ART_CODE",          
+          "enableAutoFilter": false 
+        },
+        {
+          "name": "ART_LIB1",
+          "className":"ak-grid-column2",       
+          "defaultOperator": "contains",
+          "mapping" :"article.ART_LIB1",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheArticle",          
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Articles",
+            "primaryKey": "ART_CODE",
+            "display": "ART_LIB1",
+            "title": "product",
+            "lookupRules": [
+              {
+                "field": "ART_CODE"
+              },
+              {
+                "field": "ART_LIB1"
+              }
+            ]
+          }
+        }, 
+        {            
+          "mapping":"gcvente_ent.VEN_DATE_ENL",
+          "name": "VEN_DATE_ENL",
+          "defaultOperator": "between",
+          "inputType": "daterange",
+          "dbType": "DateTime",
+          "enableSorting": true
+        },
+        {
+          "name": "TOUR_CODE", 
+          "className":"ak-grid-column2",
+          "mapping" :"tournee.TOUR_CODE",
+          "defaultOperator": "=",
+          "enableAutoFilter": false 
+        },
+        {
+          "name": "TOUR_LIBELLE", "className":"ak-grid-column2",       
+          "defaultOperator": "contains",
+          "mapping" :"tournee.TOUR_LIBELLE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheTournee",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "Tournee",
+            "primaryKey": "TOUR_CODE",
+            "display": "TOUR_LIBELLE",
+            "title": "tour",
+            "lookupRules": [
+              {
+                "field": "TOUR_CODE"
+              },
+              {
+                "field": "TOUR_LIBELLE"
+              }
+            ]
+          }
+        },
+        {
+          "mapping":"gcachat_det.LOT_ID",
+          "name": "Lot",
+          "defaultOperator": "=",
+          "inputType": "text"
+        },            
+        {
+          "name": "PICK_CODE", 
+          "className":"ak-grid-column2",
+          "defaultOperator": "contains",
+          "mapping" :"picking.PICK_CODE",          
+          "enableAutoFilter": false 
+        },
+        {
+          "name": "PICK_LIBELLE",
+          "className":"ak-grid-column2",       
+          "defaultOperator": "contains",
+          "mapping" :"picking.PICK_LIBELLE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "recherchePicking",          
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Picking",
+            "primaryKey": "PICK_CODE",
+            "display": "PICK_LIBELLE",
+            "title": "picking",
+            "lookupRules": [
+              {
+                "field": "PICK_CODE"
+              },
+              {
+                "field": "PICK_LIBELLE"
+              }
+            ]
+          }
+        },        
+        {
+          "name": "ART_VENDEUR",  
+          "mapping" :"article.ART_VENDEUR",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "Vendeur fiche article",
+            "lookupProps": {
+              "type": "V",
+              "operator": "="
+            },
+            "lookupRules": [
+              {
+                "field": "article.ART_VENDEUR"
+              },
+              {
+                "field": "article.ART_VENDEUR"
+              }
+            ]                    
+          }
+        },               
+        {
+          "name": "VEN_PREPARATEUR",
+          "mapping" :"gcvente_det.ven_preparateur",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "preparateur",
+            "lookupProps": {
+              "type": "P",
+              "operator": "="
+            },
+            "lookupRules": [
+              {
+                "field": "gcvente_det.ven_preparateur"
+              },
+              {
+                "field": "gcvente_det.ven_preparateur"
+              }
+            ]   
+          }
+        } 
+      ],
+      "initialQuick":
+      {
+    
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_CODE", "operator": "contains", "value": "" },
+          { "field": "ART_LIB1", "operator": "contains", "value": "" }
+        ]
+      }
+    },
+    "PreparationsClient": {     
+      "fields":[
+        
+        {"name": "CLI_CODE",
+          "mapping":"client.CLI_CODE",
+         
+          "defaultOperator": "beginsWith",
+          "inputType": "text", "enableAutoFilter": false
+        },
+   
+        {
+          "name": "CLI_NOM",
+          "mapping":"client.CLI_NOM",
+          "raw": true,
+        
+          "defaultOperator": "beginsWith",
+          "inputType": "text", "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheClient",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+            "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "Clients",
+            "primaryKey": "CLI_CODE",
+            "display": "CLI_NOM",
+            "title": "customer",
+            "lookupRules": [
+              {
+                "field": "CLI_CODE"
+              },
+              {
+                "field": "CLI_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "VEN_TOURNEE",
+          "className":"ak-grid-column2",
+         
+          "defaultOperator": "=" , "enableAutoFilter": false
+        },
+        {
+          "name": "TOUR_LIBELLE",
+           "className":"ak-grid-column2",
+        
+          "defaultOperator": "contains",
+          "mapping" :"tournee.TOUR_LIBELLE", "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheTournee",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "Tournee",
+            "primaryKey": "TOUR_CODE",
+            "display": "TOUR_LIBELLE",
+            "title": "tour",
+            "lookupRules": [
+              {
+                "field": "VEN_TOURNEE"
+              },
+              {
+                "field": "TOUR_LIBELLE"
+              }
+            ]
+          }
+        },
+        {
+          "name": "VEN_CODE_TRSP1",
+          "label": "TRSP_CODE",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },       
+        {
+          "name": "rechercheTransporteurs",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Transporteurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "carrier",
+            "lookupRules": [
+              {
+                "field": "VEN_CODE_TRSP1"
+              },
+              {
+                "field": "VEN_CODE_TRSP1"
+              }
+            ]
+          }
+        },
+        {            
+          "mapping":"gcvente_ent.VEN_DATE_ENL",
+          "name": "VEN_DATE_ENL",
+          "defaultOperator": "between",
+          "inputType": "daterange",
+          "dbType": "DateTime",
+          "enableSorting": true
+        },
+        {
+          "mapping":"gcvente_ent.VEN_CDE",
+          "name": "VEN_CDE",
+         
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "mapping":"gcvente_ent.VEN_DOSSIER",
+          "name": "Dossier",
+         
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        } , 
+        {
+          "name": "VEN_VENDEUR",  
+          "mapping" :"gcvente_det.VEN_VENDEUR",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "Vendeur",
+            "lookupProps": {
+              "type": "V",
+              "operator": "="
+            },
+            "lookupRules": [
+              {
+                "field": "gcvente_det.VEN_VENDEUR"
+              },
+              {
+                "field": "gcvente_det.VEN_VENDEUR"
+              }
+            ]                    
+          }
+        },               
+        {
+          "name": "VEN_PREPARATEUR",
+          "mapping" :"gcvente_det.ven_preparateur",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "preparateur",
+            "lookupProps": {
+              "type": "P",
+              "operator": "="
+            },
+            "lookupRules": [
+              {
+                "field": "gcvente_det.ven_preparateur"
+              },
+              {
+                "field": "gcvente_det.ven_preparateur"
+              }
+            ]
+          }
+        },
+        {
+          "mapping":"article.ART_FILE_PREPA",
+          "name": "File préparation",         
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }     
+      ],
+      "initialQuick":
+      {    
+        "combinator": "or",
+        "rules": [
+          { "field": "VEN_CDE", "operator": "contains", "value": "" },
+          { "field": "CLI_NOM", "operator": "beginsWith", "value": "" }
+        ]
+      }
+    },
+    "ListDetailAvecCommandeFidege":{
+      "fields":[
+        {"isQuick": true,
+          "name": "VEN_CDE",
+          "label":"VEN_CDE",
+          "mapping": "VEN_CDE", 
+          "enableAutoFilter": true,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ]
+    },
+    "FidegePreparationParArticle": {         
+      "sorts":[
+        ["SORT_ART_CODE","asc"],
+        ["SORT_ART_LIB",""]
+      ],
+      "fields":[
+        {
+          "name": "SORT_ART_CODE",
+          "label":"ART_CODE",
+          "mapping": "article.ART_CODE", 
+          "enableAutoFilter": false,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },  {
+          "name": "SORT_ART_LIB",
+          "label":"ART_LIB1",
+          "mapping": "article.ART_LIB1", 
+          "enableAutoFilter": false,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ART_CODE",
+          "mapping": "detail.VEN_ART_CODE",
+          "accessor": "VEN_ART_CODE",
+          "enableAutoFilter": false,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ART_LIB1",
+          "mapping": "article.ART_LIB1",
+          "enableAutoFilter": false,
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {"name": "VEN_PREPARATEUR",                     
+       
+        "defaultOperator": "=",
+        "inputType": "text",
+        "mapping" :"totaux.VEN_PREPARATEUR",
+        "enableAutoFilter": false
+      },
+       
+        {"name": "COLIS_RESTANT",                     
+ 
+          "defaultOperator": "=",
+          "inputType": "number",
+          "mapping" :"totaux.COLIS_RESTANT",
+          "enableAutoFilter": false
+        },
+        {"name": "VEN_CLIENT",                     
+          "label": "VEN_CLIENT",
+          "defaultOperator": "beginsWith",
+          "inputType": "text", 
+          "enableAutoFilter": false,
+          "mapping" :"_.VEN_CLIENT"
+        },
+        {"name": "CLI_NOM",                     
+        "label": "CLI_NOM",
+        "defaultOperator": "beginsWith",
+        "inputType": "text", 
+        "enableAutoFilter": false,
+        "mapping" :"client.CLI_NOM",
+        "accessor": "NOM_CLIENT" 
+      },
+      {
+        "name": "rechercheArticle",
+        "inputType": "lookupMultiSelect",
+        "lookupProperty": {
+          "view": "Articles",
+          "primaryKey": "ART_CODE",
+          "display": "ART_LIB1",
+          "title": "product",
+          "lookupRules": [
+            {
+              "field": "ART_CODE"
+            },
+            {
+              "field": "ART_LIB1"
+            }
+          ]
+        }
+      },
+        {
+          "name": "rechercheClient",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+            "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "ClientsVenteCarreau",
+            "primaryKey": "CLI_CODE",
+            "display": "CLI_NOM",
+            "title": "customer",
+            "lookupRules": [
+              {
+                "field": "VEN_CLIENT"
+              },
+              {
+                "field": "CLI_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "TOUR_CODE",
+          "className":"ak-grid-column2",
+           
+          "defaultOperator": "=" ,
+          "mapping" :"tournee.TOUR_CODE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "TOUR_LIBELLE",
+           "className":"ak-grid-column2",
+        
+          "defaultOperator": "contains",
+          "mapping" :"tournee.TOUR_LIBELLE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheTournee",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "Tournee",
+            "primaryKey": "TOUR_CODE",
+            "display": "TOUR_LIBELLE",
+            "title": "tour",
+            "lookupRules": [
+              {
+                "field": "TOUR_CODE"
+              },
+              {
+                "field": "TOUR_LIBELLE"
+              }
+            ]
+          }
+        },
+        {
+          "name": "TRSP_CODE",
+        
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "mapping": "transporteur.FOU_CODE",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "TRSP_NOM",
+     
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "mapping": "transporteur.FOU_NOM",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheTransporteurs",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Transporteurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "carrier",
+            "lookupRules": [
+              {
+                "field": "VEN_CODE_TRSP1"
+              },
+              {
+                "field": "TRSP_NOM"
+              }
+            ]
+          }
+        },
+        {          
+          "name": "VEN_DATE_LIV",
+  
+          "defaultOperator": "=",
+          "inputType": "date",
+          "dbType": "DateTime" 
+        
+        },
+        {         
+          "name": "VEN_CDE",
+       
+          "defaultOperator": "beginsWith",
+          "inputType": "number"
+        } ,
+        {
+          "name": "VEN_MANQRELIQ",
+          "mapping" :"totaux.VEN_MANQRELIQ",
+          "defaultOperator": "in",
+          "inputType": "groupBox",
+          "defaultValue":"C",
+          "groupValues":[
+            {"value":"C","label":"Commande","icon":"IconEnteteVente"},
+            {"value":"R","label":"Reliquat","icon":"IconEnteteVente"}
+          
+          ]
+        } 
+      ] ,
+      "initialQuick":
+      {
+    
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_CODE", "operator": "beginsWith", "value": "" },
+          { "field": "ART_LIB1", "operator": "beginsWith", "value": "" }
+        ]
+      }
+    },
+    "ZonesTravail":{
+      "fields":[
+        {
+          "name": "ZONE_CODE",
+          "isQuick" :true,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ZONE_LIB",
+        "isQuick" :true,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ] 
+    },
+    "Picking":{
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "sortOptions":[
+        ["PICK_CODE","asc"] 
+      ],
+      "fields":[
+        {
+          "name": "PICK_CODE",
+          "enableSorting":true,
+          "isQuick" :true,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "enableSorting":true,
+          "name": "PICK_LIBELLE",
+        "isQuick" :true,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }
+      ] 
+    },
+    "InfoLotFidegePreparationList":{
+      "sortMode": 1,
+      "fields":[
+        { 
+          "label":"STO_LOT",
+            "name": "ACH_LOT",    
+            "defaultOperator": "beginsWith",
+            "inputType": "number",
+            "enableSorting": true     ,   
+            "isQuick" :true ,
+            "mapping": "ACH_LOT"
+        } ,
+        { 
+          "name": "FOU_NOM",   
+          "accessor": "FOU_NOM",      
+          "defaultOperator": "beginsWith",
+          "inputType": "text",
+          "enableSorting": true     ,   
+          "mapping": "FOU_NOM",
+          "isQuick" :true 
+      } ,
+      { 
+        "name": "LOT_PICKING",      
+        "defaultOperator": "beginsWith",
+        "inputType": "text",
+        "enableSorting": true     
+    } 
+      ]  
+    },
+
+    "FidegeTransactionsSoucheArticles":{
+      "fields":[
+        { 
+            "name": "VEN_BL",   
+           
+            "defaultOperator": "beginsWith",
+            "inputType": "number",
+            "enableSorting": true     ,   
+            "isQuick" :true ,
+            "mapping": "entete.VEN_BL"
+        } ,
+        { 
+          "name": "CLI_NOM",   
+          "accessor": "CLI_NOM",   
+          
+          "defaultOperator": "beginsWith",
+          "inputType": "text",
+          "enableSorting": true     ,   
+          "mapping": "client.CLI_NOM",
+          "isQuick" :true 
+      } 
+      ]  
+    },
+
+    "FidegeInventaireLotsRemplacement": {
+      "queryOptions": {
+        "cacheTime": -1
+      },
+      "fields": [
+       
+        {
+          "name": "STO_LOT",
+        
+          "defaultOperator": "=",
+          "inputType": "text"
+        } ,
+        {
+          "name": "rechercheFournisseur",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Fournisseurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "supplier",
+            "lookupRules": [
+              {
+                "field": "ACH_FOURNI_LIVR"
+              },
+              {
+                "field": "FOU_NOM"
+              }
+            ]
+          }
+        }
+      ],
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "STO_LOT", "operator": "beginsWith", "value": "" }
+        ]
+      } 
+    },
+
+    "FidegeInventaireLotsArticles": {  
+      "fields":[
+        { 
+            "name": "STO_LOT",   
+            "mapping" :"STO_LOT",
+            "defaultOperator": "beginsWith",
+            "inputType": "text",
+            "enableSorting": true        
+          
+        } 
+      ] ,
+      "initialQuick":
+      {
+    
+        "combinator": "or",
+        "rules": [
+          { "field": "STO_LOT", "operator": "beginsWith", "value": "" } 
+        ]
+      }
+  },       
+    "FidegeInventaireArticles": { 
+      "sortOptions": [["TRI_DATE", "asc"]],      
+      "fields":[
+      
+         {
+          "enableAutoFilter": false,
+          "name": "HAVING_SELECTOR",
+        
+          "defaultOperator": "in",
+          "inputType": "groupBox",
+        
+          "groupValues":[
+            {"value":"O","label":"Inv Ok"  },
+            {"value":"Z","label":"Lot Zéro" },
+            {"value":"R","label":"Négatif" }
+          ]
+        },
+
+        {
+          "name": "ART_CODE",
+          "mapping": "article.ART_CODE",
+          "enableAutoFilter": false,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ART_LIB1",
+          "mapping": "article.ART_LIB1",
+          "enableAutoFilter": false,
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "rechercheArticle",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Articles",
+            "primaryKey": "ART_CODE",
+            "display": "ART_LIB1",
+            "title": "product",
+            "lookupRules": [
+              {
+                "field": "ART_CODE"
+              },
+              {
+                "field": "ART_LIB1"
+              }
+            ]
+          }
+        },
+     
+        {
+          "name": "PERS_CODE",
+          "mapping": "article.ART_ACHETEUR",
+          "enableAutoFilter": false,
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "PERS_NOM",
+          "mapping": "acheteur.PERS_NOM",
+          "enableAutoFilter": false,
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "rechercheAcheteur",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "buyer",
+            "lookupProps": {
+              "type": "A",
+              "operator": "="
+            },
+
+            "lookupRules": [
+              {
+                "field": "PERS_CODE"
+              },
+              {
+                "field": "PERS_NOM"
+              }
+            ]
+          }
+        },
+
+    
+      {
+        "name": "PICK_CODE",
+         "className":"ak-grid-column2",
+      
+        "defaultOperator": "beginsWith",
+        "mapping" :"article.ART_PICKING",
+        "enableAutoFilter": false
+      },
+        {
+          "name": "PICK_LIBELLE",
+           "className":"ak-grid-column2",
+        
+          "defaultOperator": "beginsWith",
+          "mapping" :"picking.PICK_LIBELLE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "recherchePicking",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "Picking",
+            "primaryKey": "PICK_CODE",
+            "display": "PICK_LIBELLE",
+            "title": "picking",
+            "lookupRules": [
+              {
+                "field": "PICK_CODE"
+              },
+              {
+                "field": "PICK_LIBELLE"
+              }
+            ]
+          }
+        },
+        
+        {
+          "name":"ART_STAT1",
+          "inputType": "text",
+          "enableSorting": false, 
+          "enableAutoFilter": false, 
+          "mapping": "article.ART_STAT1"
+        },
+        {
+          "name":"STAT_LIBELLE",
+          "inputType": "text",
+          "enableSorting": false, 
+          "enableAutoFilter": false, 
+          "mapping": "famille.STAT_LIBELLE"
+        },
+        {
+          "name": "rechercheStat1",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "CodeStat",
+            "primaryKey": "STAT_CODE",
+            "display": "STAT_LIBELLE",
+            "title": "codeStat",
+          
+            "lookupProps": {
+              "type": "A",
+              "niveau": "1"
+            },
+            "lookupRules": [
+              {
+                "field": "ART_STAT1"
+              },
+              {
+                "field": "STAT_LIBELLE"
+              }
+            ]
+          }
+        },
+        {          
+          "name": "CRIT_NB_JOURS_CONTROL",
+  
+          "defaultOperator": ">=",
+          "inputType": "number" 
+          ,
+          "className":"ak-grid-column3" 
+        }  ,{          
+          "name": "CRIT_DLC",
+  
+          "defaultOperator": "<=",
+          "inputType": "number" ,
+          "className":"ak-grid-column3" 
+        } 
+      ] ,
+      "initialQuick":
+      {
+    
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_CODE", "operator": "contains", "value": "" },
+          { "field": "ART_LIB1", "operator": "beginsWith", "value": "" }
+        ]
+      }
+    }, 
+    "FidegePrepaListeCommande": {         
+      "fields":[
+      
+        {
+          "name": "ART_CODE",
+          "mapping": "detail.VEN_ART_CODE",
+          "accessor": "VEN_ART_CODE",
+          "enableAutoFilter": false,
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ART_LIB1",
+          "mapping": "article.ART_LIB1",
+          "enableAutoFilter": false,
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {
+          "name": "rechercheArticle",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Articles",
+            "primaryKey": "ART_CODE",
+            "display": "ART_LIB1",
+            "title": "product",
+            "lookupRules": [
+              {
+                "field": "ART_CODE"
+              },
+              {
+                "field": "ART_LIB1"
+              }
+            ]
+          }
+        },
+
+        {"name": "VEN_PREPARATEUR",                     
+       
+        "defaultOperator": "=",
+        "inputType": "text",
+        "mapping" :"totaux.VEN_PREPARATEUR",
+        "enableAutoFilter": false
+      },
+       
+        {"name": "COLIS_RESTANT",                     
+ 
+          "defaultOperator": "=",
+          "inputType": "number",
+          "mapping" :"totaux.COLIS_RESTANT",
+          "enableAutoFilter": false
+        },
+        {"name": "VEN_CLIENT",                     
+          "label": "VEN_CLIENT",
+          "defaultOperator": "beginsWith",
+          "inputType": "text", 
+          "enableAutoFilter": false,
+          "mapping" :"_.VEN_CLIENT"
+        }, 
+      {"name": "NOM_CLIENT",                     
+        "label": "NOM_CLIENT",
+        "defaultOperator": "beginsWith",
+        "inputType": "text", 
+        "enableAutoFilter": false,
+        "mapping" :"_.NOM_CLIENT",
+        "accessor": "NOM_CLIENT" 
+    },
+        {
+          "name": "rechercheClient",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+            "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "ClientsVenteCarreau",
+            "primaryKey": "CLI_CODE",
+            "display": "CLI_NOM",
+            "title": "customer",
+            "lookupRules": [
+              {
+                "field": "VEN_CLIENT"
+              },
+              {
+                "field": "NOM_CLIENT"
+              }
+            ]
+          }
+        },
+        {
+          "name": "TOUR_CODE",
+          "className":"ak-grid-column2",
+           
+          "defaultOperator": "=" ,
+          "mapping" :"tournee.TOUR_CODE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "TOUR_LIBELLE",
+           "className":"ak-grid-column2",
+        
+          "defaultOperator": "contains",
+          "mapping" :"tournee.TOUR_LIBELLE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheTournee",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "Tournee",
+            "primaryKey": "TOUR_CODE",
+            "display": "TOUR_LIBELLE",
+            "title": "tour",
+            "lookupRules": [
+              {
+                "field": "TOUR_CODE"
+              },
+              {
+                "field": "TOUR_LIBELLE"
+              }
+            ]
+          }
+        },
+        {
+          "name": "TRSP_CODE",
+        
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "mapping": "transporteur.FOU_CODE",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "TRSP_NOM",
+     
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "mapping": "transporteur.FOU_NOM",
+          "enableSorting": true,
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheTransporteurs",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Transporteurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "carrier",
+            "lookupRules": [
+              {
+                "field": "VEN_CODE_TRSP1"
+              },
+              {
+                "field": "TRSP_NOM"
+              }
+            ]
+          }
+        },
+        {          
+          "name": "VEN_DATE_LIV",
+  
+          "defaultOperator": "=",
+          "inputType": "date",
+          "dbType": "DateTime" 
+        
+        },
+        {         
+          "name": "VEN_CDE",
+       
+          "defaultOperator": "beginsWith",
+          "inputType": "number"
+        }  ,
+        {
+          "name": "VEN_MANQRELIQ",
+          "mapping" :"totaux.VEN_MANQRELIQ",
+          "defaultOperator": "in",
+          "inputType": "groupBox",
+          "defaultValue":"C",
+          "groupValues":[
+            {"value":"C","label":"Commande","icon":"IconEnteteVente"},
+            {"value":"R","label":"Reliquat","icon":"IconEnteteVente"}
+          
+          ]
+        } 
+      ] ,
+      "initialQuick":
+      {
+    
+        "combinator": "or",
+        "rules": [
+          { "field": "VEN_CDE", "operator": "contains", "value": "" },
+          { "field": "NOM_CLIENT", "operator": "beginsWith", "value": "" }
+        ]
+      }
+    },
+    "ListePeseePreparation": {  
+      "sortOptions": [["PES_NUM", "asc"]],    
+        "fields": [   
+          {
+            "name": "PERS_CODE",
+            "mapping" :"preparateur.PERS_CODE",
+            "defaultOperator": "contains",
+            "enableSorting":true,
+            "isQuick" : true,
+            "inputType": "lookupMultiSelect",
+            "className":"ak-grid-column3",
+            "lookupProperty": {
+              "view": "PersonnelsAvecType",
+              "primaryKey": "PERS_CODE",
+              "display": "PERS_NOM",
+              "title": "preparateur",
+              "lookupProps": {
+                "type": "P",
+                "operator": "="
+              },
+              "lookupRules": [
+                {
+                  "field": "PERS_CODE"
+                },
+                {
+                  "field": "PERS_CODE"
+                }
+              ]
+            }
+          },          
+          {
+            "name": "PES_BORNE",   
+            "defaultOperator": "=",
+            "inputType": "text",
+            "enableSorting": true        
+          },  
+          {            
+            "name": "PES_DATE_CREAT",         
+            "defaultOperator": "between",
+            "inputType": "daterange",
+            "dbType": "DateTime",
+            "enableSorting": true
+          },
+          {            
+            "name": "PES_NUM",   
+            "inputType": "number",  
+            "defaultOperator": "=",   
+            "enableSorting": true
+          },
+          {
+            "name": "LOT_ID",   
+            "mapping" :"GCACHAT_DET.LOT_ID",
+            "defaultOperator": "contains",
+            "inputType": "text",
+            "enableSorting": true        
+          },  
+          {
+            "name": "PES_SSCC_PALETTE",   
+            "defaultOperator": "contains",
+            "inputType": "text",
+            "enableSorting": true        
+          },
+          {
+            "name": "PES_SSCC_COLIS",   
+            "defaultOperator": "contains",
+            "inputType": "text",
+            "enableSorting": true        
+          }   
+
+      ]
+    },
+    "ListeColisSSCC": {      
+        "fields": [
+          {
+            "name": "TRA_SSCC",            
+    
+            "defaultOperator": "contains",
+            "inputType": "text",
+            "enableSorting": true,
+            "isQuick" : true
+          },
+          {
+            "name": "TRA_NUMCOL",            
+      
+            "defaultOperator": "contains",
+            "inputType": "text",
+            "enableSorting": true           
+          }          
+      ],
+      "sortOptions": [["TRA_NUMCOL", "asc"]]
+    },
+    "ListePaletteSSCC": {      
+        "fields": [
+          {
+            "name": "TRA_SSCC",            
+       
+            "defaultOperator": "contains",
+            "inputType": "text",
+            "enableSorting": true,
+            "isQuick" : true
+          },
+          {
+            "name": "TRA_NUMPAL",            
+          
+            "defaultOperator": "contains",
+            "inputType": "text",
+            "enableSorting": true           
+          }          
+      ],
+      "sortOptions": [["TRA_NUMPAL", "asc"]]
+    },
+    "PreparationClientDetails": {
+     
+      "fields": [
+        {
+          "name": "ART_CODE",
+          "mapping": "_.VEN_ART_CODE",
+          "accessor": "VEN_ART_CODE",
+          "label": "CODE",
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        },
+        {
+          "name": "ART_LIB1",
+          "mapping": "Article.ART_LIB1",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        }
+      ],
+      "initialQuick":
+          {
+          
+            "combinator": "or",
+            "rules": [
+              { "field": "ART_LIB1", "operator": "contains", "value": "" },
+              { "field": "ART_CODE", "operator": "beginsWith", "value": "" }
+            ]
+          },
+      "initialQuery": {
+        "combinator": "and",
+
+        "rules": [
+          { "field": "ART_LIB1", "operator": "contains", "value": "" },
+          { "field": "ART_CODE", "operator": "beginsWith", "value": "" }
+        ]
+      }
+    },
+    "KeyPrepaLignesMultiCommandes": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "fields": [
+        {
+          "mapping":"article.ART_CODE",
+          "name": "ART_CODE",
+          "label": "NAME",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableAutoFilter": false                  
+        },
+        {
+          "name": "VEN_DATE_ENL",
+          "label": "VEN_DATE_ENL",
+          "defaultOperator": "contains",
+          "dbType": "DateTime",
+          "inputType": "date",
+          "enableAutoFilter": false
+        }, 
+        {          
+          "name": "VEN_CDE",
+          "label": "Commande",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {          
+          "name": "VEN_DOSSIER",
+          "label": "Dossier",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },
+        {"name": "CLI_CODE",
+          "mapping":"client.CLI_CODE",         
+          "defaultOperator": "beginsWith",
+          "inputType": "text", "enableAutoFilter": false
+        },
+   
+        {
+          "name": "CLI_NOM",
+          "mapping":"client.CLI_NOM",
+          "raw": true,
+        
+          "defaultOperator": "beginsWith",
+          "inputType": "text", "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheClient",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+            "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "ClientsVenteCarreau",
+            "primaryKey": "CLI_CODE",
+            "display": "CLI_NOM",
+            "title": "customer",
+            "lookupRules": [
+              {
+                "field": "CLI_CODE"
+              },
+              {
+                "field": "CLI_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "TOUR_CODE", 
+          "className":"ak-grid-column2",
+          "mapping" :"tournee.TOUR_CODE",
+          "defaultOperator": "=",
+          "enableAutoFilter": false 
+        },
+        {
+          "name": "TOUR_LIBELLE", "className":"ak-grid-column2",       
+          "defaultOperator": "contains",
+          "mapping" :"tournee.TOUR_LIBELLE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheTournee",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "Tournee",
+            "primaryKey": "TOUR_CODE",
+            "display": "TOUR_LIBELLE",
+            "title": "tour",
+            "lookupRules": [
+              {
+                "field": "TOUR_CODE"
+              },
+              {
+                "field": "TOUR_LIBELLE"
+              }
+            ]
+          }
+        },
+        {          
+          "name": "LOT_ID",
+          "mapping" :"gcachat_det.LOT_ID",
+          "label": "Lot",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },        
+        {
+          "name": "VEN_VENDEUR",  
+          "mapping" :"gcvente_det.VEN_VENDEUR",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "Vendeur",
+            "lookupProps": {
+              "type": "V",
+              "operator": "="
+            },  
+            "lookupRules": [
+              {
+                "field": "vendeur.PERS_CODE"
+              },
+              {
+                "field": "vendeur.PERS_NOM"
+              }
+            ]                  
+          }
+        },        
+        {
+          "name": "PREP_CODE",
+          "mapping" :"preparateur.PERS_CODE",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "preparateur",
+            "lookupProps": {
+              "type": "P",
+              "operator": "="
+            },  
+            "lookupRules": [
+              {
+                "field": "preparateur.PERS_CODE"
+              },
+              {
+                "field": "preparateur.PERS_NOM"
+              }
+            ] 
+          }
+        }   
+
+      ],
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_CODE", "operator": "contains", "value": "" },
+          { "field": "VEN_DATE_ENL", "operator": "=", "value": "" }
+        ]
+      }
+    },
+    "KeyPrepaLignesMonoCommandes": {
+      "queryOptions": {
+        "cacheTime": 100000,
+        "staleTime": 100000
+      },
+      "fields": [
+        {
+          "name": "ART_CODE", 
+          "className":"ak-grid-column2",
+          "mapping" :"article.ART_CODE",          
+          "enableAutoFilter": false 
+        },
+        {
+          "name": "ART_LIB1",
+          "className":"ak-grid-column2",       
+          "defaultOperator": "contains",
+          "mapping" :"article.ART_LIB1",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheArticle",          
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Articles",
+            "primaryKey": "ART_CODE",
+            "display": "ART_LIB1",
+            "title": "product",
+            "lookupRules": [
+              {
+                "field": "ART_CODE"
+              },
+              {
+                "field": "ART_LIB1"
+              }
+            ]
+          }
+        },        
+        {
+          "name": "PICK_CODE", 
+          "className":"ak-grid-column2",
+          "defaultOperator": "contains",
+          "mapping" :"picking.PICK_CODE",          
+          "enableAutoFilter": false 
+        },
+        {
+          "name": "PICK_LIBELLE",
+          "className":"ak-grid-column2",       
+          "defaultOperator": "contains",
+          "mapping" :"picking.PICK_LIBELLE",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "recherchePicking",          
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Picking",
+            "primaryKey": "PICK_CODE",
+            "display": "PICK_LIBELLE",
+            "title": "picking",
+            "lookupRules": [
+              {
+                "field": "PICK_CODE"
+              },
+              {
+                "field": "PICK_LIBELLE"
+              }
+            ]
+          }
+        },   
+        {          
+          "name": "LOT_ID",
+          "mapping" :"gcachat_det.LOT_ID",
+          "label": "Lot",
+          "defaultOperator": "contains",
+          "inputType": "text"
+        },       
+        {
+          "name": "VEN_PREPARATEUR",
+          "mapping" :"preparateur.PERS_CODE",
+          "enableSorting":false,
+          "inputType": "lookupMultiSelect",
+          "className":"ak-grid-column3",
+          "lookupProperty": {
+            "view": "PersonnelsAvecType",
+            "primaryKey": "PERS_CODE",
+            "display": "PERS_NOM",
+            "title": "preparateur",
+            "lookupProps": {
+              "type": "P",
+              "operator": "="
+            },  
+            "lookupRules": [
+              {
+                "field": "preparateur.PERS_CODE"
+              },
+              {
+                "field": "preparateur.PERS_NOM"
+              }
+            ] 
+          }
+        },
+        {
+          "mapping":"article.ART_FILE_PREPA",
+          "name": "File préparation",         
+          "defaultOperator": "beginsWith",
+          "inputType": "text"
+        }   
+
+      ],
+      "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "ART_CODE", "operator": "contains", "value": "" }         
+        ]
+      }
+    },
+    "SearchLotsByArticle": {      
+      "fields": [
+        {
+          "name": "LOTID",  
+          "mapping" :"GCVUEVISION_LOT.A_LOT_ID",
+          "defaultOperator": "contains",
+          "inputType": "text",
+          "enableSorting": true,
+          "isQuick" : true
+        },
+        {            
+          "name": "ACH_DATE_REC",  
+          "mapping" :"GCVUEVISION_LOT.STO_DATE",       
+          "defaultOperator": "between",
+          "inputType": "daterange",
+          "dbType": "DateTime",
+          "enableSorting": true
+        },   
+        {
+          "name": "rechercheFournisseur",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Fournisseurs",
+            "primaryKey": "FOU_CODE",
+            "display": "FOU_NOM",
+            "title": "supplier",
+            "lookupRules": [
+              {
+                "field": "ACH_FOURNI_LIVR"
+              },
+              {
+                "field": "FOU_NOM"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ART_CODE", 
+          "className":"ak-grid-column2",
+          "mapping" :"article.ART_CODE",          
+          "enableAutoFilter": false 
+        },
+        {
+          "name": "ART_LIB1",
+          "className":"ak-grid-column2",       
+          "defaultOperator": "contains",
+          "mapping" :"article.ART_LIB1",
+          "enableAutoFilter": false
+        },
+        {
+          "name": "rechercheArticle",
+          "inputType": "lookupMultiSelect",
+          "lookupProperty": {
+            "view": "Articles",
+            "primaryKey": "ART_CODE",
+            "display": "ART_LIB1",
+            "title": "product",
+            "lookupRules": [
+              {
+                "field": "ART_CODE"
+              },
+              {
+                "field": "ART_LIB1"
+              }
+            ]
+          }
+        },
+        {            
+          "name": "DLC",  
+          "mapping" :"GCVUEVISION_LOT.A_DLC",       
+          "defaultOperator": "between",
+          "inputType": "daterange",
+          "dbType": "DateTime",
+          "enableSorting": true
+        }, 
+        {
+          "name": "mouvement",  
+          "mapping" :"GCVUEVISION_LOT.STO_LOT",
+          "defaultOperator": "contains",
+          "inputType": "number",
+          "enableSorting": true,
+          "isQuick" : true
+        }
+
+    ],
+    "initialQuick":
+      {
+        "combinator": "or",
+        "rules": [
+          { "field": "LOTID", "operator": "contains", "value": "" }         
+        ]
+      }
+  },
+  "AdresseLivraisonFournisseur": {      
+    "fields": [
+      {
+        "name": "LIVF_NUM", 
+        "defaultOperator": "=",
+        "inputType": "number",
+        "enableSorting": true
+      },
+      {
+        "name": "LIVF_NOM", 
+        "defaultOperator": "contains",
+        "inputType": "text",
+        "enableSorting": true,
+        "isQuick" : true           
+      },
+      {
+        "name": "LIVF_ADR1", 
+        "defaultOperator": "contains",
+        "inputType": "text",
+        "enableSorting": true           
+      },
+      {
+        "name": "LIVF_POSTAL", 
+        "defaultOperator": "contains",
+        "inputType": "text",
+        "enableSorting": true           
+      },
+      {
+        "name": "LIVF_VILLE", 
+        "defaultOperator": "contains",
+        "inputType": "text",
+        "enableSorting": true           
+      },
+      {
+        "name": "PAYS_FOU", 
+        "mapping" :"TBPAYS.LIB",
+        "defaultOperator": "contains",
+        "inputType": "text",
+        "enableSorting": true           
+      }       
+
+  ],
+  "sortOptions": [["LIVF_NUM", "asc"]]
+}
+
+  },
+  "PasswordReset": "Akanea56"
+}

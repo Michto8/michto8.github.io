@@ -1,0 +1,11 @@
+{
+  "ACH_CDE": "Control supplier",
+  "CLI_CODE": "Customer code",
+  "LIVF_NUM": "Delivery address",
+  "LIVF_NOM" : "Name Supplier",
+  "LIVF_ADR1": "Address 1 supplier",
+  "LIVF_POSTAL": "Supplier postal code",
+  "LIVF_VILLE": "Supplier city",
+  "PAYS_FOU": "Supplier country",
+  "ACH_DOSSIER": "Folder"
+}

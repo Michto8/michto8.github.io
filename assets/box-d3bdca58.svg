@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   data-name="Layer 1"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg472"
+   sodipodi:docname="box.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs476">
+    <rect
+       x="133.63551"
+       y="-130.14177"
+       width="244.56171"
+       height="81.229426"
+       id="rect1063" />
+    <rect
+       x="38.431126"
+       y="-146.73702"
+       width="398.28621"
+       height="113.54651"
+       id="rect1631" />
+    <rect
+       x="94.330945"
+       y="-197.39624"
+       width="284.7397"
+       height="103.06529"
+       id="rect1625" />
+    <rect
+       x="110.55247"
+       y="319.9228"
+       width="289.04222"
+       height="103.75875"
+       id="rect1619" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview474"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.1449053"
+     inkscape:cx="326.66457"
+     inkscape:cy="191.2822"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="79"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg472" />
+  <g
+     data-name="&lt;Group&gt;"
+     id="g470">
+    <g
+       data-name="&lt;Group&gt;"
+       id="g462">
+      <path
+         fill="#00acea"
+         d="m 466.5,176.1 v 259.6 c 0.0222,16.57771 -13.42229,30.02215 -30,30 h -361 c -16.577708,0.0222 -30.022148,-13.42229 -30,-30 V 176.1 c 289.68213,38.20988 165.72194,0 421,0 z"
+         data-name="&lt;Group&gt;"
+         id="path450"
+         style="fill:#ff0041;fill-opacity:1;stroke:#ca0000;stroke-opacity:1"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         fill="#fedb41"
+         d="M421.4,65l45.1,111.1H312v-.2L291.5,46.3h102A30.064,30.064,0,0,1,421.4,65Z"
+         data-name="&lt;Group&gt;"
+         id="path452"
+         style="fill:#ff0041;fill-opacity:1" />
+      <polygon
+         fill="#00efd1"
+         points="312 175.9 312 176.1 199 176.1 199 176 219.6 46.3 291.5 46.3 312 175.9"
+         data-name="&lt;Group&gt;"
+         id="polygon456"
+         style="fill:#c8c8e1;fill-opacity:1" />
+      <path
+         fill="#fedb41"
+         d="M219.6,46.3,199,176v.1H45.5L90.7,65a30.03,30.03,0,0,1,27.8-18.7Z"
+         data-name="&lt;Group&gt;"
+         id="path458"
+         style="fill:#ff0041;fill-opacity:1" />
+    </g>
+    <g
+       data-name="&lt;Group&gt;"
+       id="g468">
+      <path
+         fill="#083863"
+         d="M 430.6,61.1 C 424.5465,45.920304 409.84219,35.972106 393.5,36 h -275 c -16.33362,1.31e-4 -31.023678,9.938691 -37.1,25.1 L 36,172.2 c -0.576302,1.18994 -0.915927,2.48052 -1,3.8 v 259.6 c 0,22.1 18.4,40.3 40.5,40.3 h 361 c 22.1,0 39.5,-18.2 39.5,-40.3 V 176.1 c 0.0872,-1.2873 -0.0827,-2.57908 -0.5,-3.8 z m -18.5,7.5 39.6,97.4 H 320.6 L 303.2,56 h 90.3 c 8.18759,0.01969 15.54494,5.003709 18.6,12.6 z M 283,56 300.3,166 H 210.7 L 228.1,56 Z M 99.9,68.6 c 3.05506,-7.596291 10.41241,-12.580306 18.6,-12.6 h 89.4 L 190.5,166 H 60.4 Z M 436.5,456 H 75.5 C 64.5,456 55,446.7 55,435.7 V 186 c 207.41345,12.37947 233.29573,11.78354 401,0 v 249.7 c 0,11 -8.5,20.3 -19.5,20.3 z"
+         data-name="&lt;Compound Path&gt;"
+         id="path464"
+         sodipodi:nodetypes="ccccccssssccccccccccccccccccccsssccss" />
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     id="text1061"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.3417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1063);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:12.2419;stroke-linecap:square"
+     transform="matrix(10.617071,0,0,16.540809,-1346.515,2297.5532)"><tspan
+       x="133.63477"
+       y="-113.21859"
+       id="tspan1084">BOX</tspan></text>
+</svg>
