@@ -87,7 +87,7 @@
       #root {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
       }
       .root-app {
         display: flex;
@@ -224,7 +224,7 @@
 
         xvh = Math.floor(xvh * 10) / 10;
 
-        document.documentElement.style.setProperty("--vh", xvh + "px");
+        // document.documentElement.style.setProperty("--vh", xvh + "px");
       }
       calcVH();
       window.addEventListener("resize", calcVH, true);
