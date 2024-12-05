@@ -230,6 +230,22 @@
       }
       calcVH();
       window.addEventListener("resize", calcVH, true);
+
+      let storedLastModified = localStorage.getItem("last-modified");
+      function checkForUpdates() {
+        fetch("/manifest.json", { cache: "no-cache" })
+          // .then((response) => response.json())
+          .then((response) => {
+            const lastModified = response.headers.get("last-modified");
+            localStorage.setItem("last-modified", lastModified);
+
+            if (storedLastModified == null) {
+            } else if (storedLastModified !== lastModified) {
+              window.location.reload(true);
+            }
+          });
+      }
+      checkForUpdates();
     </script>
   </body>
 </html>
