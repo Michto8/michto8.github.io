@@ -241,6 +241,7 @@
 
             if (storedLastModified == null) {
             } else if (storedLastModified !== lastModified) {
+              console.log("New version available. Reloading...");
               window.location.reload(true);
             }
           });
